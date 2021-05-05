@@ -100,7 +100,7 @@ TEST_CASE("Dispatcher Functionality")
     board[City::London] = 2;
     board[City::Madrid] = 2;
 
-    Dispatcher player{board, City::NewYork}; //when he is in a City with research lab can fly where he wants
+    Dispatcher player{board, City::NewYork}; 
     player.take_card(Montreal);
     player.take_card(HongKong);
     player.take_card(NewYork);
